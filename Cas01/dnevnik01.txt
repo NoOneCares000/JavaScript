@@ -1,0 +1,6 @@
+- Rečeno nam je da moramo voditi dnevnike toga što smo radili svaki čas.
+  Iskreno mislim da je ovo samo naporno i nepotrebno, ali dobro.
+
+- Danas smo samo ponavljali kako se push-uju promene na Git Hub jer očigledno
+  niko ne zna da pročita šta piše kad se napravi repozitorijum i kad dobiju
+  error u terminalu.
