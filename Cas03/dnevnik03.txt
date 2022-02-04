@@ -1,0 +1,7 @@
+- Danas smo radili funkcije i objekte u Java Script-u. Ništa pretera no novo sem
+  što nisam znao da se object['property'] koristi često jer ga ja retko koristim.
+
+- Možda se neko pita zašto postoji dnevnik01 i dnevnik03, a nema dnevnik02. Ko zna
+  kakvo zlo se krije u dnevnik02? Možda je i bolje da bude skriven od javnosti. Ni
+  ja lično se ne mogu setiti sadržaja dnevnik02 tako da će ostati u zaboravu zauvek
+  ili dok profesorka ne pogleda dnevnike i natera me da napišem nešto za dnevnik02.
