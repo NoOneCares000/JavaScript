@@ -1,0 +1,1 @@
+Radili smo metode nizova koje primaju callback kao parametar poput reduce() i filter().
