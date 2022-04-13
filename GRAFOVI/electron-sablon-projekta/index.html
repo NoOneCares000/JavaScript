@@ -9,6 +9,38 @@
     
     <h1>Dobro dosli u electron!</h1>
 
+    <p>
+      <div>Dodaj cvor: </div>
+      <input type="text" id="addNode">
+      <button onClick="addNewNode()">Dodaj</button>
+    </p>
+
+    <p>
+      <div>Dodaj vezu: </div>
+      <span>Od:</span>
+      <select id="from">
+      </select>
+      <span>Do:</span>
+      <select id="to">
+      </select>
+      <button onClick="addNewEdge()">Dodaj</button>
+    </p>
+
+    <p>
+      <div>Obrisi vezu: </div>
+      <select id="delEdge"></select>
+      <button onClick="deleteEdge()">Obrisi</button>
+    </p>
+
+    <p>
+      <div>Nadji put do cvora: </div>
+      <span>Pocetak:</span>
+      <input type="text" id="start">
+      <span>Cilj:</span>
+      <input type="text" id="end">
+      <button onClick="inicializeFindValue()">Nadji</button>
+    </p>
+
     <div id="container"> </div>  
     
  
