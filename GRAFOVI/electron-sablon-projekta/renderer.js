@@ -1,7 +1,7 @@
 // Spisak cvorova i njihovih veza 
 var data = {
     "nodes": [{ "id": "A" }, { "id": "B" }, { "id": "C" }, { "id": "D" }, { "id": "E" }, { "id": "F" }],
-    "edges": [{ "from": "A", "to": "B" }, { "from": "B", "to": "C" }, { "from": "C", "to": "D" }, { "from": "A", "to": "F" }, { "from": "C", "to": "A" }, { "from": "D", "to": "A" }, { "from": "E", "to": "B" }, { "from": "D", "to": "F" }]
+    "edges": [{ "from": "A", "to": "B" }, { "from": "B", "to": "C" }, { "from": "C", "to": "D" }, { "from": "A", "to": "F" }, { "from": "C", "to": "A" }, { "from": "A", "to": "D" }, { "from": "E", "to": "B" }, { "from": "F", "to": "D" }]
 }
 
 var mapData = {}
@@ -37,6 +37,7 @@ function renderGraph() {
     })
 
     convertDataToMap()
+    console.log(mapData)
 } 
 
 function addNewNode() {
@@ -78,9 +79,9 @@ function findValue (current, goal, path = '') {
 
     visitedNodes.push(current)
 
-    let newPath = path
+    let newPath = ""
     for (let i = 0; i < mapData[current].length; i++) {
-        newPath = findValue(mapData[current][i], goal, path+= '->' + current)
+        newPath = findValue(mapData[current][i], goal, path + '->' + current)
         if (newPath)
             break
     }
