@@ -1,11 +1,11 @@
 // Spisak cvorova i njihovih veza 
-var data = {
+export var data = {
     "nodes": [{ "id": "A" }, { "id": "B" }, { "id": "C" }, { "id": "D" }, { "id": "E" }, { "id": "F" }],
     "edges": [{ "from": "A", "to": "B" }, { "from": "B", "to": "C" }, { "from": "C", "to": "D" }, { "from": "A", "to": "F" }, { "from": "C", "to": "A" }, { "from": "A", "to": "D" }, { "from": "E", "to": "B" }, { "from": "F", "to": "D" }]
 }
 
 var mapData = {}
-
+var chart
 
 // Metoda za iscrtavanje grafa u div-u koji sa id="container"
 function renderGraph() {
